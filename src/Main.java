@@ -21,7 +21,7 @@ public class Main {
 //        } // end of for loop i
 
         // solution 2
-        for(int i = 0; i <=100; i++) {
+        for(int i = 1; i <=100; i++) {
             if(i%7==0) {
                 System.out.print(i + " ");
             }
@@ -31,7 +31,7 @@ public class Main {
 
     public static void multipleOf8() {
         System.out.print("multiple of 8: ");
-        for(int i = 0; i <=200; i++) {
+        for(int i = 1; i <=200; i++) {
             if(i%8==0) {
                 System.out.print(i + " ");
             }
@@ -41,7 +41,7 @@ public class Main {
 
     public static void multipleOf9() {
         System.out.print("multiple of 9: ");
-        for(int i = 0; i <=300; i++) {
+        for(int i = 1; i <=300; i++) {
             if(i%9==0) {
                 System.out.print(i + " ");
             }
